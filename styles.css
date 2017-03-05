@@ -13,6 +13,22 @@ main {
   background-color: yellow;
 }
 
+.stretch-content{
+width: 100%;
+top:0;
+left:0;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
 .contact-hours {
   float:left;
   border: 1px solid brown;
@@ -27,5 +43,15 @@ main {
 .column1, .column2, .column3 {
   float: left;
   margin: 10px;
+  width: 300px;
   border: solid 1px red;
+}
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
 }
