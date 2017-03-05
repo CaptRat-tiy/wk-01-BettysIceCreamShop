@@ -18,7 +18,14 @@ main {
   border: 1px solid brown;
   height: auto;
 }
+
 .row1 {
   background-color: lightblue;
   text-align: center;
+}
+
+.column1, .column2, .column3 {
+  float: left;
+  margin: 10px;
+  border: solid 1px red;
 }
