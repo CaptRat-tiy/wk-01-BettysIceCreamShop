@@ -63,11 +63,15 @@ div >li {
   background-color: yellow;
 }
 
+.contact-info {
+  text-align: left;
+}
+
 .logo {
   position: relative;
   height: 150px;
   width:150px;
-  border: 5px solid red;
+  border: 3px solid red;
   border-radius: 50%;
   margin-left: 1%;
   margin-top: -5rem;
