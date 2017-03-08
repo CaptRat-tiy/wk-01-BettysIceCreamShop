@@ -52,19 +52,21 @@ div >li {
   padding: 1rem;
   background-color: #efefef;
   text-align: center;
-  height: 150px;
+  height: 100px;
 }
 
 .contact-hours {
   float:left;
   position: relative;
   border: 1px solid brown;
-  height: auto;
   background-color: yellow;
 }
 
 .contact-info {
   text-align: left;
+  width: 250px;
+  height: 50px;
+  margin-left: 5px;
 }
 
 .logo {
@@ -99,4 +101,10 @@ div >li {
 
 .cf:after {
   clear: both;
+}
+
+#hours {
+  height: 250px;
+  width: 250px;
+
 }
