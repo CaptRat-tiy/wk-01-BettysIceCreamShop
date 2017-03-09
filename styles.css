@@ -11,7 +11,7 @@ html, body {
 }
 body {
     background-image: url("images/icecream-wallpaper.jpg");
-    height: calc(100% - 60px)
+    margin-bottom: 100px;
 }
 
 header {
@@ -37,10 +37,6 @@ width: 100%;
 height: auto; /*100%*/
 /*margin: 0;
 padding: 0;*/
-}
-
-ul {
-  list-style-type: none;
 }
 
 div >li {
@@ -115,6 +111,7 @@ div >li {
 .row1 {
   background-color: lightblue;
   text-align: center;
+  float:
 }
 
 .yellow-box-wrapper {
@@ -129,6 +126,7 @@ div >li {
   width: 250px;
 }
 
-/*#rogue {
-  float: left;
-}*/
+#rogue {
+
+
+}
