@@ -9,6 +9,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
+body {
+    background-image: url("images/icecream-wallpaper.jpg");
+    height: calc(100% - 60px)
+}
 
 header {
   margin: 0;
@@ -24,7 +28,6 @@ h1 {
 
 main {
   padding: 0;
-  background-image: url("images/icecream-wallpaper.jpg");
   /*position: fixed;*/
   height: 100%;
 }
@@ -91,6 +94,7 @@ div >li {
   right: 0;
   bottom: 0;
   left: 0;
+  font-size: 15px;
   border: 1px solid red;
   padding: 1rem;
   background-color: #efefef;
@@ -112,6 +116,11 @@ div >li {
   background-color: lightblue;
   text-align: center;
 }
+
+.yellow-box-wrapper {
+  height: 100%;
+  width: 100%;
+  }
 
 /* ID Stylings */
 
