@@ -25,7 +25,7 @@ h1 {
 main {
   padding: 0;
   background-image: url("images/icecream-wallpaper.jpg");
-  position: fixed;
+  /*position: fixed;*/
   height: 100%;
 }
 
@@ -44,29 +44,58 @@ div >li {
   display: inline-block;
 }
 
-.footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-  height: 100px;
+/* CLASS Styling */
+
+.cf:before, .cf:after {
+  content: " ";
+  display: table;
 }
+
+.cf:after {
+  clear: both;
+}
+
+/*.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}*/
 
 .contact-hours {
   float:left;
   position: relative;
   border: 1px solid brown;
   background-color: yellow;
+  font-size: 14px;
+}
+
+.column1, .column2, .column3 {
+  float: left;
+  font-family:fantasy;
+  margin: 10px;
+  width: 30%;
+  border: solid 1px red;
+  background: yellow;
+  padding: 1rem;
 }
 
 .contact-info {
   text-align: left;
   width: 250px;
   height: 50px;
-  margin-left: 5px;
+  /*margin-left: 5px;*/
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid red;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  height: 100px;
 }
 
 .logo {
@@ -84,27 +113,13 @@ div >li {
   text-align: center;
 }
 
-.column1, .column2, .column3 {
-  float: left;
-  font-family:fantasy;
-  margin: 10px;
-  width: 30%;
-  border: solid 1px red;
-  background: yellow;
-  padding: 1rem;
-}
-
-.cf:before, .cf:after {
-  content: " ";
-  display: table;
-}
-
-.cf:after {
-  clear: both;
-}
+/* ID Stylings */
 
 #hours {
   height: 250px;
   width: 250px;
-
 }
+
+/*#rogue {
+  float: left;
+}*/
